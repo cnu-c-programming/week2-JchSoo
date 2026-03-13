@@ -9,19 +9,19 @@ int main()
 
     switch (c) {
         case '+':
-            printf("%f", num1 + num2);
+            printf("%d\n", (int)(num1 + num2));
             break;
         case '-':
-            printf("%f", num1 - num2);
+            printf("%d\n", (int)(num1 - num2));
             break;
         case '*':
-            printf("%f", num1 * num2);
+            printf("%d\n", (int)(num1 * num2));
             break;
         case '/':
-            printf("%f", num1 / num2);
+            printf("%f\n", num1 / num2);
             break;
         default:
-            printf("Try again");
+            printf("Try again\n");
     }
 
     return 0;
