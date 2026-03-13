@@ -9,7 +9,7 @@ int main()
         printf("false");
     } else {
         for (int i = 2; i < 1000; i++){
-            if (a % i == 0) {
+            if (a != i && a % i == 0) {
                 printf("false");
                 return 0;
             }
